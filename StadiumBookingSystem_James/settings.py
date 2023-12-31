@@ -25,7 +25,9 @@ SECRET_KEY = 'j=#qwp-o(u!c$xsosr&91@@7@58jq^1+2(y=g-w0wyw*6vjb6l'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['52.205.233.192']
+
+
 
 
 # Application definition
