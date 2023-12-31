@@ -43,6 +43,6 @@ class Migration(migrations.Migration):
                 ('Match', models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, to='TicketBooking.Match')),
             ],
         ),
-         migrations.RunSQL("insert into ticketbooking_user(User_Email,User_Password) values('admin@gmail.com','admin')")
+        #  migrations.RunSQL("insert into ticketbooking_user(User_Email,User_Password) values('admin@gmail.com','admin')")
 
     ]
