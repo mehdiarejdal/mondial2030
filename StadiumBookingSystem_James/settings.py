@@ -79,9 +79,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'ticket_booking',
         'USER':'root',
-        'PASSWORD':'',
+        'PASSWORD':'rootroot',
         'PORT':'3306',
-        'HOST':'127.0.0.1',
+        'HOST':'database-1.c52cuekkmtia.us-east-1.rds.amazonaws.com',
     }
 }
 
